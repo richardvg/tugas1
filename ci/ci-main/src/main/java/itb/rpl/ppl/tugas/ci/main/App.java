@@ -2,7 +2,7 @@ package itb.rpl.ppl.tugas.ci.main;
 
 /**
  * Hello world!
- *
+ *test
  */
 public class App 
 {
