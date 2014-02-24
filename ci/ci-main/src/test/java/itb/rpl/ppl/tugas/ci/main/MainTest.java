@@ -48,16 +48,6 @@ public class MainTest {
         Main.main(args);
         }
 
-    /**
-     * Test of w method, of class Main.
-     */
-    @Test
-    public void testW() {
-        System.out.println("w");
-        Main instance = new Main();
-        int expResult = 2;
-        int result = instance.w();
-        assertEquals(expResult, result);
-       }
+  
     
 }
