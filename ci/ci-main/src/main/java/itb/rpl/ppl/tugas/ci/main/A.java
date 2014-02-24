@@ -11,8 +11,8 @@ public class A {
     
     }
     
-    public Void f(){
-        return null;
+    public void f(){
+        System.out.println('A');
     
     }
 }
