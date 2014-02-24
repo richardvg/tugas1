@@ -55,7 +55,7 @@ public class MainTest {
     public void testW() {
         System.out.println("w");
         Main instance = new Main();
-        int expResult = 0;
+        int expResult = 2;
         int result = instance.w();
         assertEquals(expResult, result);
        }
