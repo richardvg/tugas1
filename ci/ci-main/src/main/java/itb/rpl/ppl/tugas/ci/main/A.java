@@ -2,7 +2,7 @@
 package itb.rpl.ppl.tugas.ci.main;
 
 /**
- *test
+ *te
  * @author khegi
  */
 public class A {
