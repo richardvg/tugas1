@@ -15,16 +15,19 @@ import java.util.Vector;
 public class MainProg implements X {
 
 	public static void main(String[] args) {
-		int N = 10;
 		ABB a = new ABB();
 		P p=new P();
 		Q q = new Q();
 		a.f();
-		Vector<Integer> v = new Vector<>(N);
-		v.add(N);
-		for (int i=0;i<N-1;i++)
+		Vector<Integer> v = new Vector<>(Allconst.N);
+		for (int i=0;i<v.capacity();i++)
                 {
-			System.out.println(i);
+			v.add(i);
+		}
+                
+		for (int i=0;i<v.capacity();i++)
+                {
+			System.out.println(v.get(i));
 		}
 	}
 
