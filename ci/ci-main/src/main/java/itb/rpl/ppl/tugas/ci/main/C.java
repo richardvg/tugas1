@@ -2,9 +2,17 @@
 package itb.rpl.ppl.tugas.ci.main;
 
 /**
- *test
- * @author khegi
+ * Interface B
+ * 
+ * @author      Khegi
+ * @author      Aston
+ * @author      Adit
+ * @since       1.0
  */
 public interface C {
+    
+     /**
+ * 
+ */
 	public void g();
 }
