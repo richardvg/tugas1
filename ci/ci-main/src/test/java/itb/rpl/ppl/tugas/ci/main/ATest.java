@@ -43,7 +43,8 @@ public class ATest {
      */
     @Test
     public void testF() {
-        System.out.println("f method of class A");
+        
+        System.out.println("Test f method of class A");
         A instance = new A();
         instance.f();
        }

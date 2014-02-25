@@ -43,7 +43,8 @@ public class BTest {
      */
     @Test
     public void testV() {
-        System.out.println("v");
+        
+        System.out.println("Test f method of class A");
         B instance = new BImpl();
         instance.v();
     }

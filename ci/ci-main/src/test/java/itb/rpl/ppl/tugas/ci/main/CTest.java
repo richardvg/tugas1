@@ -43,7 +43,7 @@ public class CTest {
      */
     @Test
     public void testG() {
-        System.out.println("g");
+        System.out.println("Test g method of class C");
         C instance = new CImpl();
         instance.g();
     }
