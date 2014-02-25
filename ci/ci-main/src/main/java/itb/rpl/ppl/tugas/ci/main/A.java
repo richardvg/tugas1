@@ -7,7 +7,7 @@ package itb.rpl.ppl.tugas.ci.main;
  */
 public class A {
     public A(){
-     System.out.println("test");
+     System.out.println("ctor-A");
     
     }
     

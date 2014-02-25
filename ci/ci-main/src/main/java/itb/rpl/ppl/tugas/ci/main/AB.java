@@ -14,14 +14,14 @@ public class AB extends A implements B, C {
     
     @Override
     public void f(){
-        System.out.println("AB.f()");
+        System.out.println("AB");
     }
-    public void v() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void v() 
+    {
     }
 
-    public void g() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void g()
+    {
     }
 
 }

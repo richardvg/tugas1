@@ -10,6 +10,9 @@ package itb.rpl.ppl.tugas.ci.main;
  *
  * @author ASUS
  */
-public class classbaru {
-    
+public final class Allconst {
+	public static final double PI = Math.PI;
+	public static final double RHO = 9.0;
+	public static final double EPSILON = 0.005;
+	public static final int N = 8;
 }
