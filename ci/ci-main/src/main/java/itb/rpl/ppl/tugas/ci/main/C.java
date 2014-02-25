@@ -5,6 +5,6 @@ package itb.rpl.ppl.tugas.ci.main;
  *test
  * @author khegi
  */
-public interface C {
-	public void g();
+public abstract class C {
+	public abstract void g();
 }
