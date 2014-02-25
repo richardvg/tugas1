@@ -43,7 +43,7 @@ public class XTest {
      */
     @Test
     public void testW() {
-        System.out.println("w");
+        System.out.println("Test w method of class X");
         X instance = new XImpl();
         int expResult = 0;
         int result = instance.w();

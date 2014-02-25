@@ -66,7 +66,7 @@ public class ABTest {
      */
     @Test
     public void testG() {
-        System.out.println("g");
+        System.out.println("Test g method of class AB");
         AB instance = new AB();
         instance.g();
     }
